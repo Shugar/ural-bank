@@ -268,7 +268,21 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .modal {
+    width: 900px;
+
+    .photo {
+      display: none;
+    }
+  }
+}
 @media (max-width: 960px) {
+
+  .modal {
+    max-width: 600px;
+  }
+
   .woman {
     display: none;
   }
