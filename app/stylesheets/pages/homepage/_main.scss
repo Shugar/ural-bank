@@ -111,7 +111,7 @@
   width: 50%;
   span {
     margin-left: 40px;
-    width: 370px;
+    max-width: 370px;
   }
 
   &:nth-child(-n+2) {
@@ -205,6 +205,7 @@
     position: relative;
     display: inline-block;
     margin-right: 60px;
+    margin-bottom: 20px;
 
     &::after {
       content: '';
@@ -226,5 +227,54 @@
 
   .container {
     padding: 40px 30px;
+  }
+}
+
+@media (max-width: 960px) {
+  .woman {
+    display: none;
+  }
+
+  .advantages {
+    &-list {
+      height: auto;
+    }
+
+    &-item {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .vacancy-wrapper {
+    width: auto;
+  }
+
+  .become-a-manager {
+    flex-wrap: wrap;
+
+    .button {
+      margin-bottom: 35px;
+    }
+  }
+
+  .to-do-list_wrapper {
+    img {
+      display: none;
+    }
+  }
+
+  .to-do-list {
+    margin: 0;
+  }
+
+  .button {
+    width: 100%;
+  }
+  .conditions-item {
+    width: auto;
+    margin-bottom: 60px;
+    
   }
 }
