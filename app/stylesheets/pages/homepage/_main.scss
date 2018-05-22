@@ -185,4 +185,34 @@
 .footer {
   background: #4A546C;
   color: #fff;
+
+  .container {
+    padding: 80px 30px;
+  }
+
+  .title {
+    margin-bottom: 24px;
+  }
+}
+
+.city {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.adreses {
+  span {
+    display: inline-block;
+    margin-right: 60px;
+  }
+}
+
+.licence {
+  background: #4A546C;
+  color: #fff;
+  border-top: 1px solid #8D9CB5;
+
+  .container {
+    padding: 40px 30px;
+  }
 }
