@@ -28,6 +28,14 @@ $(document).ready(() => {
   //   $('.js-curr').html(`${next + 1}`)
   // })
 
+  $('.light-office').on('click', function () {
+    $('.modal').addClass('is-visible')
+  })
+
+  $('.modal-close').on('click', function () {
+    $('.modal').removeClass('is-visible')
+  })
+
   $('.watch-video').on('click', function () {
     $(".youtube-video-player").tubeplayer("play");
     $('.video-container').addClass('video-container-visible')
