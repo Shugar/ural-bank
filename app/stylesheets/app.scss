@@ -1,0 +1,20 @@
+$main-font-size: 17px;
+$main-line-height: 28px;
+$main-font-color: #323C46;
+$main-brand-color: #0A7BCC;
+
+// tools
+@import 'tools/_fonts';
+@import 'tools/_settings';
+@import 'tools/_normalize';
+
+// components
+@import 'components/_button';
+
+@import 'node_modules/slick-carousel/slick/slick.scss';
+@import 'node_modules/slick-carousel/slick/slick-theme.scss';
+
+
+
+// for views
+@import 'pages/homepage/_main';

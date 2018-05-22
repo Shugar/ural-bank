@@ -1,0 +1,188 @@
+.head {
+  height: 600px;
+  width: 100%;
+  background: url('../images/hero-background.jpg') no-repeat center / cover;
+  color: #fff;
+  padding-top: 80px;
+}
+
+.logo {
+  margin-bottom: 88px;
+}
+
+.vacancy-wrapper {
+  width: 450px;
+}
+
+
+.vacancy {
+  font-size: 24px;
+  margin-bottom: 40px;
+  &-descr {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+}
+
+.become-a-manager {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // margin-bottom: -6px;
+}
+
+.watch-video {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  img {
+    margin-right: 15px;
+  }
+
+  span {
+    padding-top: 5px;
+  }
+}
+
+.detail-descr {
+  padding: 80px 0;
+  font-size: 18px;
+  color: #888888;
+  font-weight: 600;
+}
+
+.text {
+  border-left: 2px solid #E94280;
+  padding: 40px;
+}
+
+.light-office {
+  color: #E94280;
+}
+
+.to-do {
+  padding: 40px 0;
+  &-list_wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &-list {
+    margin-left: 100px;
+  }
+  &-item {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-left: 20px;
+      max-width: 873px;
+    }
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.title {
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+.welcome-if {
+  padding: 80px 0;
+}
+
+.conditions {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+
+.conditions-item {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  span {
+    margin-left: 40px;
+    width: 370px;
+  }
+
+  &:nth-child(-n+2) {
+    margin-bottom: 60px;
+  }
+}
+
+.advantages {
+  padding: 80px 0;
+  background: #4A546C;
+  color: #fff;
+
+  &-list {
+    display: flex;
+    flex-flow: column wrap;
+    height: 130px;
+  }
+
+  span {
+    margin-left: 15px;
+  }
+
+  &-item:not(:nth-child(3n)) {
+    margin-bottom: 25px;
+  }
+}
+
+.the-way {
+  .container {
+    padding: 80px 30px;
+  }
+  .button {
+    margin-top: 60px;
+  }
+}
+
+.woman {
+  position: absolute;
+  height: 550px;
+  width: auto;
+  bottom: 0;
+  right: 0;
+}
+
+.step {
+  display: flex;
+  align-items: flex-end;
+
+
+  .descr {
+    padding-bottom: 40px;
+    margin-left: 25px;
+  }
+
+  .number {
+    font-size: 100px;
+    font-weight: 900;
+    color: #ECECEC;
+  }
+}
+
+.step-title {
+  font-weight: 600;
+}
+
+.status {
+  margin-top: 10px;
+  color: #898989;
+}
+
+.footer {
+  background: #4A546C;
+  color: #fff;
+}

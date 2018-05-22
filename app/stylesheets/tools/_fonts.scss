@@ -1,0 +1,162 @@
+
+@font-face {
+  font-family: 'PF BeauSans Pro Bbook';
+  src: url('../fonts/PFBeauSansPro-BbookItalic.eot');
+  src: url('../fonts/PFBeauSansPro-BbookItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-BbookItalic.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-BbookItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('../fonts/PFBeauSansPro-SemiBoldItalic.eot');
+  src: url('../fonts/PFBeauSansPro-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-SemiBoldItalic.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('../fonts/PFBeauSansPro-Light.eot');
+  src: url('../fonts/PFBeauSansPro-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-Light.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('../fonts/PFBeauSansPro-Regular.eot');
+  src: url('../fonts/PFBeauSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-Regular.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro XThin';
+  src: url('../fonts/PFBeauSansPro-XThin.eot');
+  src: url('../fonts/PFBeauSansPro-XThin.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-XThin.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-XThin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('../fonts/PFBeauSansPro-Italic.eot');
+  src: url('../fonts/PFBeauSansPro-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-Italic.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('../fonts/PFBeauSansPro-LightItalic.eot');
+  src: url('../fonts/PFBeauSansPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-LightItalic.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('../fonts/PFBeauSansPro-Bold.eot');
+  src: url('../fonts/PFBeauSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-Bold.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('../fonts/PFBeauSansPro-ThinItalic.eot');
+  src: url('../fonts/PFBeauSansPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-ThinItalic.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('../fonts/PFBeauSansPro-Black.eot');
+  src: url('../fonts/PFBeauSansPro-Black.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-Black.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro Bbook';
+  src: url('../fonts/PFBeauSansPro-Bbook.eot');
+  src: url('../fonts/PFBeauSansPro-Bbook.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-Bbook.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-Bbook.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('../fonts/PFBeauSansPro-BlackItalic.eot');
+  src: url('../fonts/PFBeauSansPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-BlackItalic.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('../fonts/PFBeauSansPro-Thin.eot');
+  src: url('../fonts/PFBeauSansPro-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-Thin.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('../fonts/PFBeauSansPro-BoldItalic.eot');
+  src: url('../fonts/PFBeauSansPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-BoldItalic.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('../fonts/PFBeauSansPro-SemiBold.eot');
+  src: url('../fonts/PFBeauSansPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-SemiBold.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro XThin';
+  src: url('../fonts/PFBeauSansPro-XThinItalic.eot');
+  src: url('../fonts/PFBeauSansPro-XThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PFBeauSansPro-XThinItalic.woff2') format('woff2'),
+      url('../fonts/PFBeauSansPro-XThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+
+

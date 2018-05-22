@@ -1,0 +1,49 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, p, a {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.container {
+  font-family: 'PF BeauSans Pro';
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1220px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.inner {
+  font-family: 'PF BeauSans Pro';
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
