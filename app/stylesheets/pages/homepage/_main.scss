@@ -202,8 +202,20 @@
 
 .adreses {
   span {
+    position: relative;
     display: inline-block;
     margin-right: 60px;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 1px;
+      background: #E94280;
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+    }
   }
 }
 
