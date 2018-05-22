@@ -30,7 +30,7 @@ html
             .vacancy-descr Вакансия для активных, амбициозных и целеустремленных
             .vacancy-name Ведущий менеджер по продажам МСБ
           .become-a-manager
-            .button Стань частью команды
+            a.button(href="#") Стань частью команды
             .watch-video
               img(src="./images/play-video.svg")
               span Смотреть видео
@@ -70,7 +70,7 @@ html
           .conditions-item
             img(src="./images/active.svg")
             span Активный по жизни
-        .button Cтать частью команды
+        a.button(href="#") Cтань частью команды
     .advantages
       .container
         .title В чем приемущество работы в УБРиР?
@@ -112,8 +112,33 @@ html
           .descr
             .step-title Личное знакомство
             .status Мы свяжемся с тобой!
-        .button Стать частью команды
-    .footer 
+        a.button(href="#") Стань частью команды
+    .gallery
+      .container
+        .slider
+          .slider-item
+            img(src="./images/slider-1.jpg")
+          .slider-item
+            img(src="./images/slider-2.jpg")
+          .slider-item
+            img(src="./images/slider-3.jpg")
+          .slider-item
+            img(src="./images/slider-1.jpg")
+          .slider-item
+            img(src="./images/slider-2.jpg")
+          .slider-item
+            img(src="./images/slider-3.jpg")
+
+        .slider-navigation
+          .slider-prev
+          .slider-counter
+            .slider-current
+              | 1
+            .slider-separate
+              | /
+            .slider-length
+          .slider-next
+    .footer
       .container
         .title Адреса офисов:
         .city г. Санкт-Петербург

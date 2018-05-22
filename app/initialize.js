@@ -3,33 +3,41 @@ import 'slick-carousel'
 import './youtube'
 
 $(document).ready(() => {
-  // const slidesCount = $('.slider').find('.slider__slide').length
-  // $('.js-amount').html(`${slidesCount}`)
+  const slidesCount = $('.slider').find('.slider-item').length
+  $('.slider-length').html(`${slidesCount}`)
 
-  // $('.slider').slick({
-  //   slidesToShow: 3,
-  //   infinite: true,
-  //   arrows: true,
-  //   autoplay: true,
-  //   autoplaySpeed: 2500,
-  //   responsive: [
-  //     {
-  //       breakpoint: 768,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1,
-  //         infinite: true
-  //       }
-  //     }
-  //   ]
-  // })
+  const $carousel = $('.slider').slick({
+    slidesToShow: 3,
+    infinite: true,
+    arrows: true,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true
+        }
+      }
+    ]
+  })
 
-  // $('.slider').on('beforeChange', (e, slick, curr, next) => {
-  //   $('.js-curr').html(`${next + 1}`)
-  // })
+  $('.slider').on('beforeChange', (e, slick, curr, next) => {
+    $('.slider-current').html(`${next + 1}`)
+  })
 
   $('.light-office').on('click', function () {
     $('.modal').addClass('is-visible')
+  })
+
+  $('.slider-next').on('click', function () {
+    $carousel.slick("slickNext");
+  })
+
+  $('.slider-prev').on('click', function () {
+    $carousel.slick("slickPrev");
   })
 
   $('.modal-close').on('click', function () {
