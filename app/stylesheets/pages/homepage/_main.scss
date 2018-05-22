@@ -1,3 +1,54 @@
+.background-black {
+  opacity: 0.5;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 1000;
+
+  &.video-container-visible {
+    display: flex;
+  }
+
+  .video-container-close {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 10000;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    background: url('../images/close.svg') no-repeat center / contain;
+  }
+
+  .youtube-video-player {
+    width: 100%;
+    height: 100%;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .modal {
   position: fixed;
   display: none !important;
@@ -38,13 +89,14 @@
 }
 
 .head {
+  position: relative;
   height: 600px;
   width: 100%;
-  background: url('../images/hero-background.jpg') no-repeat center / cover;
+  background-color: #000;
+  background: url('../images/background.gif') no-repeat center / cover;
   color: #fff;
   padding-top: 80px;
 }
-
 
 .logo {
   margin-bottom: 88px;
@@ -58,6 +110,7 @@
 .vacancy {
   font-size: 24px;
   margin-bottom: 40px;
+
   &-descr {
     font-weight: bold;
     margin-bottom: 8px;
@@ -300,7 +353,64 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 768px) {
+  .detail-descr {
+    padding: 60px 0px;
+  }
+
+  .detail-descr .text {
+    padding-right: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .title {
+    margin-bottom: 32px;
+  }
+
+  .welcome-if {
+    padding: 60px 0;
+  }
+
+  .conditions {
+    margin-bottom: 0px;
+  }
+
+  .to-do-item:not(:last-child),
+  .conditions-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  .advantages {
+    padding: 60px 0;
+  }
+
+  .advantages-item {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .advantages-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .advantages-item img {
+    height: 18px;
+  }
+
+  .the-way .container {
+    padding: 60px 24px;
+  }
+
+  .the-way .button {
+    margin-top: 32px;
+  }
+
+  .footer .container,
+  .licence .container {
+    padding: 60px 24px;
+  }
+
   .vacancy-wrapper {
     width: auto;
   }
@@ -309,7 +419,7 @@
     flex-wrap: wrap;
 
     .button {
-      margin-bottom: 35px;
+      margin-bottom: 24px;
     }
   }
 
