@@ -27,72 +27,96 @@ html
         .vacancy-wrapper
           img.logo(src="./images/logo.svg")
           .vacancy
-            .vacancy-descr Вакансия для активных, амбициозных и целеустремленных
-            .vacancy-name Ведущий менеджер по продажам МСБ
+            //- .vacancy-descr Вакансия для активных, амбициозных и целеустремленных
+            .vacancy-name Команда Уральского банка реконструкции и развития 
+                          |приглашает ведущего технолога в департамент 
+                          |информационных технологий. 
           .become-a-manager
             a.button(href="#") Стань частью команды
             .watch-video
-              img(src="./images/play-video.svg")
+              //- img(src="./images/play-video.svg")
               span Смотреть видео
 
     .detail-descr
       .container
-        .text Ведущий менеджер по продажам МСБ – это персональный менеджер для предприятия малого и среднего бизнеса, работающий в новом формате <span class="light-office">«Легкий» офис</span>. Приоритет для нас - это простота взаимодействия клиента с Банком, поэтому все услуги могут быть оказаны дистанционно - с  выездом менеджера на место ведения бизнеса клиента.
+        .description-item
+          img.icon(src="./images/bank.svg")
+          .text 
+          | <span class="bold">Банк</span> — это сложнейший механизм, в функционировании которого одну из ключевых ролей играют современные информационные технологии. Сейчас мы активно  приступили к реализации новой концепции развития IT инфраструктуры Банка . 
 
-    .to-do
-      .container
-        .title Что необходимо делать, что бы быть успешным Ведущим менеджером по продажам МСБ:
-        .to-do-list_wrapper
-          img(src="./images/crown.svg")
-          .to-do-list
-            .to-do-item
-              img(src="./images/checked.svg")
-              span Строить долгосрочные, взаимовыгодные отношения с клиентами (предприятия малого и среднего бизнеса).
-            .to-do-item
-              img(src="./images/checked.svg")
-              span Предлагать клиентам необходимые и полезные для развития их бизнеса услуги: эквайринг, расчетные счета, депозиты, овердрафтное кредитование, банковские гарантии.
-            .to-do-item
-              img(src="./images/checked.svg")
-              span Обеспечивать документационное сопровождение всех сделок.
-    .welcome-if
-      .container
-        .title Рады принять тебя в команду, если:
-        .conditions
-          .conditions-item
-            img(src="./images/exp-icon.svg")
-            span Обладаешь опытом активных продаж для предприятий в любой сфере бизнеса
-          .conditions-item
-            img(src="./images/effective-icon.svg")
-            span Эффективен в коммуникациях: можешь найти общий язык с каждым, умеешь убеждать, и знаете, как успешно отработать возражения
-          .conditions-item
-            img(src="./images/purposeful-icon.svg")
-            span Целеустремлен и точно знаешь чего хочешь!
-          .conditions-item
-            img(src="./images/active.svg")
-            span Активный по жизни
-        a.button(href="#") Cтань частью команды
+        .description-item
+          img.icon(src="./images/logo_lines.svg")
+          .text
+          |<span class="bold red">УБРиР</span> — открытый, профессиональный, современный Банк с драйвом. Мы работаем, опираясь на передовые тенденции, решаем амбициозные задачи, постоянно совершенствуя наши процессы.
+
     .advantages
       .container
-        .title В чем приемущество работы в УБРиР?
+        .title Мы ждем тебя в команду, если ты:
         .advantages-list
           .advantages-item
-            img(src="./images/checked-pink.svg")
-            span Фиксированный доход + ежемесячный бонус
+            img(src="./images/checked.svg")
+            span За твоими плечами есть опыт работы в должности технолога, системного или бизнес аналитика от 2 лет;
           .advantages-item
-            img(src="./images/checked-pink.svg")
-            span Корпоративная сотовая связь
+            img(src="./images/checked.svg")
+            span Понимаешь что хочет пользователь и умеешь на основе этого писать технические задания;
           .advantages-item
-            img(src="./images/checked-pink.svg")
+            img(src="./images/checked.svg")
+            span Системно мыслишь, умеешь определять главное и расставлять приоритеты, самостоятельно принимаешь эффективные решения.
+          .advantages-item
+            img(src="./images/checked.svg")
+            span Владеешь навыком написания методик и тестирования программного обеспечения
+          .advantages-item
+            img(src="./images/checked.svg")
+            span Получил высшее образование
+          .big-advantage
+            img(src="./images/thumbs_up.svg")
+            <span>Отлично, если ты еще владеешь <br/>хорошими знаниями SQL</span>
+        a.button(href="#") Cтань частью команды
+    .to-do
+      .container
+        .to-do-list_wrapper
+          .tasks-wrapper
+            .title Что входит в задачи и обязанности технолога:
+            .to-do-list
+              .to-do-item
+                img(src="./images/red-oval.svg")
+                span Сбор, анализ, формализация бизнес требований и согласование их с заказчиком
+              .to-do-item
+                img(src="./images/red-oval.svg")
+                span Постановка задачи разработчикам, написание ТЗ
+              .to-do-item
+                img(src="./images/red-oval.svg")
+                span Моделирование и оценка бизнес-процессов
+              .to-do-item
+                img(src="./images/red-oval.svg")
+                span Разработка технической документации
+              .to-do-item
+                img(src="./images/red-oval.svg")
+                span Написание методик и проведение тестирования ПО
+          img(src="./images/group-photo.jpg")
+    .welcome-if
+      .container
+        .title В чем приемущество работы в УБРиР?
+        .conditions
+          .conditions-item
+            img(src="./images/bar-chart.svg")
+            span Карьерный и профессиональный рост внутри Банка
+          .conditions-item
+            img(src="./images/open-book.svg")
             span Внутрикорпоративное обучение
-          .advantages-item
-            img(src="./images/checked-pink.svg")
-            span Возможность карьерного роста
-          .advantages-item
-            img(src="./images/checked-pink.svg")
-            span Расширенный соц. пакет: ДМС, спорт и др
-          .advantages-item
-            img(src="./images/checked-pink.svg")
-            span Льготные условия кредитования и ипотеки
+          .conditions-item
+            img(src="./images/box.svg")
+            span Расширенный соц. пакет: ДМС, спорт, скидки от партнеров и др.
+          .conditions-item
+            img(src="./images/idea.svg")
+            span Уровень заработной платы, который зависит от ваших технических знаний и навыков. 
+          .conditions-item
+            img(src="./images/credit.svg")
+            span Льготное кредитования и ипотечные займы
+          .conditions-item
+            img(src="./images/office.svg")
+            span Новый креативный офис в центре города
+        //- a.button(href="#") Cтань частью команды
     .the-way
       .container
         img.woman(src="./images/woman.jpg")
@@ -101,17 +125,17 @@ html
           .number 1
           .descr
             .step-title Отбор по резюме:
-            .status Поздравляем, этап успешно пройден!
+            .status Поздравляем, ты уже успешно прошел его!
         .step
           .number 2
           .descr
             .step-title Онлайн-интервью:
-            .status Узнай, подходит ли эта работа тебе
+            .status Тебе потребуется ноутбук или смартфон и несколько минут свободного времени
         .step
           .number 3
           .descr
             .step-title Личное знакомство
-            .status Мы свяжемся с тобой!
+            .status В случае успеха мы с тобой свяжемся и договоримся о встрече
         a.button(href="#") Стань частью команды
     .gallery
       .container
