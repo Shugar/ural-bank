@@ -1,3 +1,9 @@
+
+
+.slick-arrow {
+  display: none;
+}
+
 .background-black {
   opacity: 0.5;
   background: #000;
@@ -433,6 +439,9 @@
 }
 
 .slider-prev {
+  position: absolute;
+  left: 0;
+  top: 37%;
   background: url('../images/left.svg') no-repeat center / contain;
   width: 10px;
   height: 20px;
@@ -441,6 +450,9 @@
 }
 
 .slider-next {
+  position: absolute;
+  right: 0;
+  top: 37%;
   background: url('../images/right.svg') no-repeat center / contain;
   width: 10px;
   height: 20px;
@@ -460,6 +472,26 @@
 
     &-item {
       margin-bottom: 25px;
+      width: initial;
+    }
+  }
+
+  .big-advantage {
+    margin-left: auto;
+  }
+
+  .conditions {
+    flex-flow: column nowrap;
+    // align-items: center;
+
+    &-item {
+      flex-flow: row nowrap;
+      align-items: center;
+      
+      span {
+        margin-left: 15px;
+        max-width: initial;
+      }
     }
   }
 }
@@ -525,6 +557,19 @@
     margin-bottom: 32px;
   }
 
+
+  .big-advantage {
+    margin: initial;
+
+    img {
+      height: 55px;
+      width: auto;
+    }
+
+    span {
+      margin-top: 21px;
+    }
+  }
   .advantages {
     padding: 60px 0;
   }
