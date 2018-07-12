@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="17px" viewBox="0 0 22 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1 Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 22 0 22 16.3636364 0 16.3636364"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-13" transform="translate(-150.000000, -860.000000)">
+            <g id="Group-11" transform="translate(0.000000, 729.000000)">
+                <g id="Group-4" transform="translate(150.000000, 117.000000)">
+                    <g id="Page-1-Copy-4" transform="translate(0.000000, 14.318182)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M21.6778153,0.326333894 C21.2482573,-0.108777965 20.5518206,-0.108777965 20.1221766,0.326333894 L6.9435052,13.6741888 L1.8778395,8.54349838 C1.44828144,8.10843004 0.751844785,8.10847356 0.322200779,8.54349838 C-0.10740026,8.97861024 -0.10740026,9.68398062 0.322200779,10.1190925 L6.16568583,16.0374493 C6.595115,16.4725177 7.29206727,16.472213 7.72132456,16.0374493 L21.6778153,1.90192799 C22.1074164,1.46685965 22.1073734,0.761445753 21.6778153,0.326333894" id="Fill-1" fill="#52CB37" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
