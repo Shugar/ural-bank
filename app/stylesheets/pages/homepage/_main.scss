@@ -182,6 +182,10 @@
     display: flex;
     justify-content: space-between;
   }
+
+  .text {
+    line-height: 24px;
+  }
 }
 
 .description-item {
@@ -214,7 +218,7 @@
 
 .to-do-list_wrapper {
   .group {
-    margin-top: -50px;
+    max-width: 400px;
   }
 }
 
@@ -232,13 +236,14 @@
     align-items: center;
     color: #888888;
     font-weight: 600;
+    line-height: 24px;
 
     span {
       margin-left: 20px;
       max-width: 873px;
     }
     &:not(:last-child) {
-      margin-bottom: 40px;
+      margin-bottom: 16px;
     }
   }
 }
@@ -271,9 +276,10 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
+  line-height: 24px;
   width: calc(33% - 50px);
   img {
-    margin-bottom:  18px;
+    margin-bottom:  24px;
   }
   span {
     // margin-left: 40px;
@@ -295,14 +301,16 @@
   }
 
   &-item {
-    width: calc(50% - 44px);
+    flex: 0 0 45%;
     margin-bottom: 25px;
+    line-height: 24px;
   }
 
   &-list {
     display: flex;
-    flex-flow: column wrap;
-    height: 210px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 30px;
   }
 
@@ -316,6 +324,9 @@
 }
 
 .big-advantage {
+  margin-bottom: 32px;
+  flex: 0 0 45%;
+
   img {
     float: left;
   }
@@ -375,13 +386,15 @@
 .footer {
   background: #4A546C;
   color: #fff;
+  font-weight: 100;
 
   .container {
-    padding: 80px 30px;
+    padding: 60px 30px 40px;
   }
 
   .title {
     margin-bottom: 24px;
+    color: #FFF;
   }
 }
 
@@ -414,6 +427,7 @@
   background: #4A546C;
   color: #fff;
   border-top: 1px solid #8D9CB5;
+  font-weight: 100;
 
   .container {
     padding: 40px 30px;
@@ -504,6 +518,9 @@
 }
 
 @media (max-width: 768px) {
+  .slider-next, .slider-prev {
+    display: none;
+  }
 
   .head {
     height: initial;
@@ -591,6 +608,10 @@
   }
   .advantages {
     padding: 60px 0;
+  }
+
+  .advantages-list {
+    display: block;
   }
 
   .advantages-item {
