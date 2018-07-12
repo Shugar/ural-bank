@@ -212,6 +212,12 @@
   margin-right: 70px;
 }
 
+.to-do-list_wrapper {
+  img {
+    margin-top: -50px;
+  }
+}
+
 .to-do {
   padding: 40px 0;
   &-list_wrapper {
@@ -219,8 +225,6 @@
     align-items: center;
   }
 
-  &-list {
-  }
   &-item {
     display: flex;
     align-items: center;
@@ -248,6 +252,7 @@
 
 .welcome-if {
   background: #FAFAFA;
+  color: #4A546C;
   padding: 60px 0;
 }
 
